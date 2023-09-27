@@ -1,0 +1,12 @@
+<select id="version-selector">
+    <!-- Dodaj opcje dla każdej wersji -->
+    <option value="v1.0">v1.0</option>
+    <option value="v2.0">v2.0</option>
+  </select>
+  
+  <script>
+  document.getElementById('version-selector').addEventListener('change', function() {
+    // Przekieruj do wybranej wersji
+    window.location.href = 'ttps://optime-ai.github.io/sample-docs/' + this.value;
+  });
+  </script>
